@@ -1,0 +1,151 @@
+The system is: Linux - 2.6.32-642.6.2.el6.x86_64 - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /share/apps/gcc/5.2.0/bin/gfortran 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/2.8.12/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1192709836/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1192709836.dir/build.make CMakeFiles/cmTryCompileExec1192709836.dir/build
+gmake[1]: Entering directory `/people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp'
+/projects/ops/apps/rh6/cmake/2.8.12/bin/cmake -E cmake_progress_report /people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec1192709836.dir/testFortranCompiler.f.o
+/share/apps/gcc/5.2.0/bin/gfortran    -c /people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTryCompileExec1192709836.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTryCompileExec1192709836
+/projects/ops/apps/rh6/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1192709836.dir/link.txt --verbose=1
+/share/apps/gcc/5.2.0/bin/gfortran       CMakeFiles/cmTryCompileExec1192709836.dir/testFortranCompiler.f.o  -o cmTryCompileExec1192709836 -rdynamic 
+gmake[1]: Leaving directory `/people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec168348250/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec168348250.dir/build.make CMakeFiles/cmTryCompileExec168348250.dir/build
+gmake[1]: Entering directory `/people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp'
+/projects/ops/apps/rh6/cmake/2.8.12/bin/cmake -E cmake_progress_report /people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o
+/share/apps/gcc/5.2.0/bin/gfortran    -c /projects/ops/apps/rh6/cmake/2.8.12/share/cmake-2.8/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTryCompileExec168348250
+/projects/ops/apps/rh6/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec168348250.dir/link.txt --verbose=1
+/share/apps/gcc/5.2.0/bin/gfortran   -v   CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o  -o cmTryCompileExec168348250 -rdynamic  
+Driving: /share/apps/gcc/5.2.0/bin/gfortran -v CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o -o cmTryCompileExec168348250 -rdynamic -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/share/apps/gcc/5.2.0/bin/gfortran
+COLLECT_LTO_WRAPPER=/projects/ops/apps/rh6/gcc/5.2.0/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../gcc-5.2.0/configure --prefix=/share/apps/gcc/5.2.0/ --enable-host-shared --enable-languages=c,c++,fortran,go,java,jit,lto,objc,obj-c++
+Thread model: posix
+gcc version 5.2.0 (GCC) 
+Reading specs from /projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec168348250' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/projects/ops/apps/rh6/gcc/5.2.0/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/projects/ops/apps/rh6/gcc/5.2.0/bin/../libexec/gcc/
+LIBRARY_PATH=/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/:/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec168348250' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /projects/ops/apps/rh6/gcc/5.2.0/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec168348250 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o -L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0 -L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc -L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../.. CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec168348250/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec168348250.dir/build.make CMakeFiles/cmTryCompileExec168348250.dir/build]
+  ignore line: [gmake[1]: Entering directory `/people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp']
+  ignore line: [/projects/ops/apps/rh6/cmake/2.8.12/bin/cmake -E cmake_progress_report /people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building Fortran object CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/share/apps/gcc/5.2.0/bin/gfortran    -c /projects/ops/apps/rh6/cmake/2.8.12/share/cmake-2.8/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTryCompileExec168348250]
+  ignore line: [/projects/ops/apps/rh6/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec168348250.dir/link.txt --verbose=1]
+  ignore line: [/share/apps/gcc/5.2.0/bin/gfortran   -v   CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o  -o cmTryCompileExec168348250 -rdynamic  ]
+  ignore line: [Driving: /share/apps/gcc/5.2.0/bin/gfortran -v CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o -o cmTryCompileExec168348250 -rdynamic -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/share/apps/gcc/5.2.0/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/projects/ops/apps/rh6/gcc/5.2.0/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../gcc-5.2.0/configure --prefix=/share/apps/gcc/5.2.0/ --enable-host-shared --enable-languages=c,c++,fortran,go,java,jit,lto,objc,obj-c++]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (GCC) ]
+  ignore line: [Reading specs from /projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec168348250' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/projects/ops/apps/rh6/gcc/5.2.0/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/projects/ops/apps/rh6/gcc/5.2.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/:/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec168348250' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /projects/ops/apps/rh6/gcc/5.2.0/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec168348250 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o -L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0 -L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc -L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../.. CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/projects/ops/apps/rh6/gcc/5.2.0/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec168348250] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o] ==> ignore
+    arg [-L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0] ==> dir [/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0]
+    arg [-L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc] ==> dir [/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc]
+    arg [-L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64] ==> dir [/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..] ==> dir [/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..]
+    arg [CMakeFiles/cmTryCompileExec168348250.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0] ==> [/projects/ops/apps/rh6/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0]
+  collapse library dir [/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc] ==> [/projects/ops/apps/rh6/gcc/5.2.0/lib/gcc]
+  collapse library dir [/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64] ==> [/projects/ops/apps/rh6/gcc/5.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/projects/ops/apps/rh6/gcc/5.2.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..] ==> [/projects/ops/apps/rh6/gcc/5.2.0/lib]
+  implicit libs: [gfortran;m;quadmath;m;c]
+  implicit dirs: [/projects/ops/apps/rh6/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0;/projects/ops/apps/rh6/gcc/5.2.0/lib/gcc;/projects/ops/apps/rh6/gcc/5.2.0/lib64;/lib64;/usr/lib64;/projects/ops/apps/rh6/gcc/5.2.0/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec810042511/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec810042511.dir/build.make CMakeFiles/cmTryCompileExec810042511.dir/build
+gmake[1]: Entering directory `/people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp'
+/projects/ops/apps/rh6/cmake/2.8.12/bin/cmake -E cmake_progress_report /people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec810042511.dir/testFortranCompilerF90.f90.o
+/share/apps/gcc/5.2.0/bin/gfortran    -c /people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTryCompileExec810042511.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTryCompileExec810042511
+/projects/ops/apps/rh6/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec810042511.dir/link.txt --verbose=1
+/share/apps/gcc/5.2.0/bin/gfortran       CMakeFiles/cmTryCompileExec810042511.dir/testFortranCompilerF90.f90.o  -o cmTryCompileExec810042511 -rdynamic 
+gmake[1]: Leaving directory `/people/liao313/private_modules/fortran/swat-modflow/src/src/CMakeFiles/CMakeTmp'
+
+
